@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>简单购物网站</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+    .store {
+        background-color: rgb(216, 188, 152);
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .product {
+        background-color: #40cece;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+    }
+    .product img {
+        width: 100px;
+        height: 100px;
+    }
+    .product h3 {
+        margin: 10px 0;
+    }
+    .product button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .cart {
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .cart-item {
+        margin-bottom: 10px;
+    }
+    .cart-item img {
+        width: 80px;
+        height: 80px;
+    }
+    .cart-item-name {
+        margin-left: 10px;
+    }
+    .cart-item-price {
+        margin-left: 20px;
+    }
+    .total {
+        margin-top: 10px;
+    }
+body{
+    background-color: rgb(76, 147, 147);
+
+}
+.home{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:40px;
+    left:320px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="store">
+    <h1>商品列表</h1>
+    <div class="product" onclick="location.href='product_details.html'">
+        <img src="shouji.jpg" alt="一加ACT3原神刻晴定制机">
+        <a href="https://item.jd.com/10097684087157.html" target="_blank">一加ACT3原神刻晴定制机</a>
+        <p>价格：￥3649</p>
+        <button>加入购物车</button>
+    </div>
+    <div class="product">
+        <img src="erji.jpg" alt="迪士尼天使之翼蓝牙耳机">
+        <a href="https://item.jd.com/10104667861451.html" target="_blank">迪士尼天使之翼蓝牙耳机</a>
+        <p>价格：￥126.13</p>
+        <button>加入购物车</button>
+    </div>
+    <div class="product">
+        <img src="qiupai.jpg" alt="匹克全碳素羽毛球拍">
+        <a href="https://item.jd.com/10097361265138.html" target="_blank">匹克全碳素羽毛球拍</a>
+        <p>价格：￥116</p>
+        <button>加入购物车</button>
+    </div>
+    
+
+   <a href="../yemian/主页.html"><img src="./home.webp" class="home"></a>
+       
+    
+</div>

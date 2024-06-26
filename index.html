@@ -3,33 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
-    <link href="loginf.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+    <style type="text/css">
+        .dahe{
+            width: 1390px;
+            height: 1600px;
+            border: 5px solid;
+            background: url(./tupian/beij.jpg) no-repeat center bottom padding-box;
+        
+        }
+        .fenlei{
+            width: 1390px;
+            height: 600px;
+        }
+        .top{
+            height: 150px;
+            text-align: center;
+            background: rgb(190, 143, 143) no-repeat center top padding-box;
+        }
+        .meishi{
+            font-size: 80px;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            background-image: url(./tupian/tianp.png);
+            float: left;
+            margin: 0;
+        }
+
+        .meishi:hover{
+            border-radius: 50%;
+            transition-property: border-radius;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+        .maomao{
+            background-image: url(../大作业2钟璋佳/meme/shupian.webp);
+            font-size: 80px;
+            text-align: center;
+            width: 500px;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            float: left;
+            margin: 0 0 0 40px;
+        }
+        .maomao:hover{
+            border-radius: 50%;
+            transition-property: border-radius;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+        .gaoshu{
+            font-size: 50px;
+            text-align: center;
+            width: 400px;
+            height: 500px;
+            background-image: url(./tupian/gaoshu.jpg);
+            float: right;
+            margin: 0;
+            color: rgb(169, 210, 161);
+        }
+        .gaoshu:hover{
+            border-radius: 50%;
+            transition-property: border-radius;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+        .kaixin{
+            width: 720px;
+            height: 720px;
+            float: left;
+            background-image:url(./tupian/shayu2.jpg);
+        }
+        .kaixin:hover{
+            border-radius: 50%;
+            transition-property: border-radius;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+#footer{
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    background-image: url(./tupian/weixin.jpg);
+    margin: 0;
+    float: right;
+    font-size: 20px; 
+}
+.phone{
+    font-size: 50px;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    background-image: url(../shopping/shouji.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 500px;
+    left:10px;
+   
+    
+  
+}
+
+.phone:hover{
+            
+            height: 300px;
+            /*transition-property: border-radius;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;*/
+        }
+    </style>
 </head>
 <body>
-    <div class="video-background">
-        <video autoplay muted loop>
-            <source src="最终大作业/login.mp4" type="video/mp4">
-        </video>
+    <div class="dahe">
+        <div class="top" aligh="center">
+            <h1 aligh="top">~~~~~~~~~购~~~~~~物~~~~~~~~</h1>
         </div>
-    <div class="container" id="loginForm">
-        <from action="#" method="post">
+        <hr>
+        <div class="fenlei">
+            <a href="../甜品-登录/uti大作业.html"><div class="meishi">美食</div></a>
+            <a href="../大作业2钟璋佳/zzj1.html"><div class="maomao">猫猫</div></a>
+            <a href="./高数.html"><div class="gaoshu">高数绝密知识点</div></a>
             
-                <h2>LogIn</h2>
-            
-            
-            <h4>用户名：</h4>
-            <input type="text" value="" name="use">
-        </br></br>
-           
-             <h4>密码 : </h4>
-            <input type="password" value="" name="pass">
-            
-        </br></br>
-
-        <button type="submit"><a href="../yemian/主页.html">登录</a></button>
-        </from>
+        </div>
+       
+        <a href="../shopping/go wu.html"><div class="phone">手机</div></a>
+        <div class="kaixin">我不需要购买高数知识点，因为我只是只鲨鱼</div>
+        <div id="footer">（弹窗广告）我是秦始皇，其实我没有死，我要创业复活我的十万大狙，扫二维码助力200，我让你做大将军</div>
     </div>
-    
 </body>
 </html>
